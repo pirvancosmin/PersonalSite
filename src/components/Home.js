@@ -3,11 +3,15 @@ import './styles.css';
 
 function Home() {
   return (
+    <>
     <section className="presentation">
         <div className='homeDes'>
-          <h2 className="hello">Hi, I'm Cosmin <br />  Web developer <br />  <img src='dev.png' className='devImg' alt='devimg' /> </h2>
+          <h2 className="hello">Hi, I'm Cosmin <br />  Web developer <br /> </h2>
+          <img src='progpic.png' className='devImg' alt='devimg' />
         </div>
     </section>
+
+  </>
   );
 }
 

@@ -1,6 +1,11 @@
 .app {
   background-color: #f2f2f2;
-  padding: 20px;
+  
+}
+@media screen and (max-width: 540px) {
+  .app {
+    padding: 0;
+  }
 }
 
 .list {
@@ -10,6 +15,13 @@
   display: flex;
   justify-content: center;
   background-color: #333;
+}
+
+@media screen and (max-width: 540px) {
+  .list {
+    padding: 25px;
+    font-size: larger;
+  }
 }
 
 .listitem {
@@ -28,6 +40,7 @@
 }
 
 .listitem a:hover {
-  background-color: #666;
+  background-color: #2a008b;
+  color: rgb(250, 250, 250);
 }
 
