@@ -16,6 +16,7 @@
   color: #333;
   font-size: 55px;
 }
+
 .hello:hover {
   color: #2a008b;
 }
@@ -61,18 +62,16 @@
   transition: background-color 0.5s ease;
 }
 
-
-
 .h2title:hover {
   background-color: #2a008b;
   color: #ffffff;
-  
+
 }
 
 .h2Name {
   margin: 0 37%;
   padding: 3px;
-  
+
 }
 
 .container {
@@ -86,13 +85,13 @@
   font-size: 25px;
   text-indent: 50px;
   font-family: 'Courier New', Courier, monospace;
-  font-weight:550;
+  font-weight: 550;
   padding: 15px;
   max-width: 65%;
   text-align: center;
-  border: 2px solid transparent; 
+  border: 2px solid transparent;
   border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-  border-image-slice: 1; 
+  border-image-slice: 1;
 }
 
 .img1 {
@@ -106,25 +105,24 @@
   width: 250px;
   height: 250px;
   animation: rotate 8s linear infinite;
-  filter: grayscale(100%); 
+  filter: grayscale(100%);
   transition: filter 0.3s ease;
 }
 
 .img1:hover {
   filter: grayscale(0%);
-  
+
 }
 
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
-
-
 
 @media screen and (max-width: 540px) {
   .container {
@@ -151,9 +149,6 @@
   }
 }
 
-
-
-
 /* Projects */
 
 .projectSection {
@@ -172,7 +167,7 @@
 }
 
 .textP:hover {
-  color:#2a008b;
+  color: #2a008b;
 }
 
 .projects {
@@ -203,9 +198,10 @@
   border-radius: 5px;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
 }
+
 .projectImg:hover {
   border: #2a008b solid 7px;
-  box-shadow: 0 0 6px 3px #2a008b ;
+  box-shadow: 0 0 6px 3px #2a008b;
   transition: box-shadow 0.4s ease-in-out;
 }
 
@@ -235,11 +231,13 @@
   justify-content: center;
   opacity: 0;
   transition: opacity 0.3s ease;
-  
+
 }
+
 .overlay {
   border-radius: 5px;
 }
+
 .project:hover .overlay {
   opacity: 1;
 }
@@ -305,15 +303,18 @@ button svg {
   font-weight: 900;
   padding: 2% 0 0 0;
 }
+
 .imagMail {
-  filter: grayscale(100%); 
-  transition: filter 0.5s ease; 
+  filter: grayscale(100%);
+  transition: filter 0.5s ease;
   width: 40%;
   height: 40%;
 }
+
 .imagMail:hover {
   filter: grayscale(0%);
 }
+
 @media screen and (max-width: 540px) {
   .imagMail {
     width: 80%;
@@ -321,14 +322,15 @@ button svg {
     padding: 30% 0;
   }
 }
+
 .bottom {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 3%; 
+  height: 3%;
   background-color: #333;
-  color: #fff; 
+  color: #fff;
   z-index: 999;
   text-align: center;
   padding-bottom: 0.7%;

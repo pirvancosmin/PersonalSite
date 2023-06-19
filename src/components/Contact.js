@@ -10,9 +10,9 @@ function Contact() {
       <div className="contact">
         <div className="h2title"> <h2 className='h2Name'>Contact Me</h2></div>
         <div className='dates'>
-        <img className='imagMail' src='./mailsP.png' alt='img' />
-        <p><strong>EMAIL:</strong> pirvancosmin@outlook.com</p>
-        <p><strong>PHONE:</strong> +40 761 987 710</p>
+          <img className='imagMail' src='./mailsP.png' alt='img' />
+          <p><strong>EMAIL:</strong> pirvancosmin@outlook.com</p>
+          <p><strong>PHONE:</strong> +40 761 987 710</p>
         </div>
         <div className='buttonStyle'>
           <button className='linkedin-button' onClick={() => window.open('https://ro.linkedin.com/in/pirvancosmin?trk=profile-badge')}>
@@ -24,7 +24,7 @@ function Contact() {
         </div>
       </div>
       <>
-        </>
+      </>
     </div>
   );
 }

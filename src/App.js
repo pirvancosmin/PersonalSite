@@ -12,14 +12,14 @@ function App() {
     document.title = 'Pirvan Cosmin';
   }, []);
 
-  const[currentDate, setCurrentDate] = useState(new Date());
+  const [currentDate, setCurrentDate] = useState(new Date());
 
-    useEffect(() => {
-      const interval = setInterval(() => {
-        setCurrentDate(new Date().getFullYear());
-      }, 1000);
-      return () => clearInterval(interval);
-    }, []);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentDate(new Date().getFullYear());
+    }, 1000);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <>
@@ -47,7 +47,7 @@ function App() {
           </Routes>
         </Router>
         <bottom className="bottom">
-            <h5 id="thisYear">{`© ${currentDate.toString()} Pirvan Cosmin. All Rights Reserved.`}</h5>
+          <h5 id="thisYear">{`© ${currentDate.toString()} Pirvan Cosmin. All Rights Reserved.`}</h5>
         </bottom>
       </div>
     </>
