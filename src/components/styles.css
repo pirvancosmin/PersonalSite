@@ -147,6 +147,7 @@
     padding: 0;
     text-indent: 25px;
     max-width: 95%;
+    font-size: 21px;
   }
 }
 
@@ -167,6 +168,7 @@
 .textP {
   color: #000000;
   text-align: center;
+  font-size: 25px;
 }
 
 .textP:hover {
@@ -181,6 +183,11 @@
   padding: 5% 0 0 0;
 }
 
+@media screen and (max-width: 540px) {
+  .projects {
+    padding-bottom: 10%;
+  }
+}
 
 .project {
   margin: 10px;
@@ -194,9 +201,12 @@
   transition: filter 0.3s ease;
   border: #333 solid 4px;
   border-radius: 5px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
 }
 .projectImg:hover {
   border: #2a008b solid 7px;
+  box-shadow: 0 0 6px 3px #2a008b ;
+  transition: box-shadow 0.4s ease-in-out;
 }
 
 @media screen and (max-width: 540px) {
@@ -316,10 +326,26 @@ button svg {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 4%; 
+  height: 3%; 
   background-color: #333;
   color: #fff; 
   z-index: 999;
   text-align: center;
-  padding-bottom: 0.5%;
+  padding-bottom: 0.7%;
+}
+
+@media screen and (max-width: 540px) {
+  .bottom {
+    padding: 0;
+    height: 3%;
+    font-size: 12px;
+    padding-bottom: 1%;
+    height: 3%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .bottom {
+    height: 4.5%;
+  }
 }
