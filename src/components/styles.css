@@ -325,8 +325,8 @@ button svg {
 .imagMail {
   filter: grayscale(100%);
   transition: filter 0.5s ease;
-  width: 40%;
-  height: 40%;
+  width: 35%;
+  height: 35%;
 }
 
 .imagMail:hover {
@@ -357,7 +357,6 @@ button svg {
 
 @media screen and (max-width: 540px) {
   .bottom {
-    position: relative;
     padding: 0;
     height: 3%;
     font-size: 12px;
@@ -368,6 +367,5 @@ button svg {
 @media screen and (max-width: 375px) {
   .bottom {
     height: 4.5%;
-    position: relative;
   }
 }

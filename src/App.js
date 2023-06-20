@@ -1,25 +1,15 @@
 import './App.css';
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Home from './components/Home';
-import Bottom from './components/Bottom';
 
 
 function App() {
   useEffect(() => {
     document.title = 'Pirvan Cosmin';
-  }, []);
-
-  const [currentDate, setCurrentDate] = useState(new Date());
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentDate(new Date().getFullYear());
-    }, 1000);
-    return () => clearInterval(interval);
   }, []);
 
   return (
