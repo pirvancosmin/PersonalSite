@@ -21,24 +21,6 @@ function App() {
     return () => clearInterval(interval);
   }, []);
 
-  useEffect(() => {
-    function handleScroll() {
-      const contentHeight = document.body.offsetHeight;
-      const windowHeight = window.innerHeight;
-
-      const bottomElement = document.getElementById("thisYear");
-      bottomElement.style.position = contentHeight > windowHeight ? "relative" : "absolute";
-    }
-
-    window.addEventListener("scroll", handleScroll);
-    window.addEventListener("resize", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-      window.removeEventListener("resize", handleScroll);
-    };
-  }, []);
-
   return (
     <>
       <div className='app'>
