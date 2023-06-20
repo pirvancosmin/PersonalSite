@@ -16,7 +16,8 @@ function About() {
       <div className="container">
         <p className="textAM">
           Since an early age I have always been curious and passionate about everything related to technology.
-          <br /> I started to learn programming and gained valuable experience in languages such as <b>C++</b>, <b>Javascript</b>, <b>HTML</b>, and <b>CSS</b>.
+          <br /> I started to learn programming and gained valuable experience in languages such as <b className='bMod'>C++</b>, <b className='bMod'>Javascript</b>, 
+          <b className='bMod'>HTML</b>, and <b className='bMod'>CSS</b>.
           <br /> Now, I'm enthusiastic to find a role where I can continue learning and growing.
           I'm a fast learner and have a strong desire to acquire new skills.
           <br /> I am determined to contribute to innovative projects and be part of a dynamic team that encourages creativity and continuous learning.

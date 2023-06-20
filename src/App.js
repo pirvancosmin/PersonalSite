@@ -5,6 +5,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Home from './components/Home';
+import Bottom from './components/Bottom';
 
 
 function App() {
@@ -46,8 +47,7 @@ function App() {
             <Route path="/Contact" element={<Contact />} />
           </Routes>
         </Router>
-
-        <p className='bottom' id="thisYear">{`© ${currentDate.toString()} Pirvan Cosmin. All Rights Reserved.`}</p>
+      
       </div>
     </>
   );
