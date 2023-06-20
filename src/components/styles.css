@@ -269,6 +269,11 @@
   padding: 4% 0 3% 0;
   flex-wrap: wrap;
 }
+@media screen and (max-width: 540px) {
+  .contact {
+    padding-bottom: 15%;
+  }
+}
 
 .buttonStyle {
   display: flex;
