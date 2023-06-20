@@ -16,9 +16,14 @@
   color: #333;
   font-size: 55px;
 }
+@media screen and (max-width: 540px) {
+  .hello {
+    margin: 0 1%;
+  }
+}
 
 .hello:hover {
-  color: #2a008b;
+  color: #200069;
 }
 
 .devImg {
@@ -63,7 +68,7 @@
 }
 
 .h2title:hover {
-  background-color: #2a008b;
+  background-color: #200069;
   color: #ffffff;
 
 }
@@ -167,7 +172,7 @@
 }
 
 .textP:hover {
-  color: #2a008b;
+  color: #200069;
 }
 
 .projects {
@@ -201,7 +206,7 @@
 
 .projectImg:hover {
   border: #2a008b solid 7px;
-  box-shadow: 0 0 6px 3px #2a008b;
+  box-shadow: 0 0 6px 3px #200069;
   transition: box-shadow 0.4s ease-in-out;
 }
 
@@ -290,7 +295,7 @@
 
 .linkedin-button:hover,
 .github-button:hover {
-  background-color: #2a008b;
+  background-color: #200069;
 }
 
 button svg {
@@ -320,34 +325,5 @@ button svg {
     width: 80%;
     height: 80%;
     padding: 30% 0;
-  }
-}
-
-.bottom {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 3%;
-  background-color: #333;
-  color: #fff;
-  z-index: 999;
-  text-align: center;
-  padding-bottom: 0.7%;
-}
-
-@media screen and (max-width: 540px) {
-  .bottom {
-    padding: 0;
-    height: 3%;
-    font-size: 12px;
-    padding-bottom: 1%;
-    height: 3%;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .bottom {
-    height: 4.5%;
   }
 }
