@@ -7,7 +7,7 @@ function Projects() {
       <article>
         <div className='projectSection'>
           <div className='h2title'><h2 className='h2Name'>Projects</h2></div>
-          <h2 className='textP'>Here are a few projects made by me (in progress)</h2>
+          <h2 className='textP'>Here are a few projects I have worked on recently, with more exciting projects to come in the future.</h2>
           <div className='projects'>
             <div className='project'>
               <a href='https://calculator-pirvan.netlify.app/'>
